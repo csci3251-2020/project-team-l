@@ -1,7 +1,3 @@
-#include <stdio.h>
-
-main()
-{
  printf("Hello World!\n");
  
  int i = 0;
@@ -12,4 +8,3 @@ main()
  int y = 1;
  if (x==y) printf("\nCOCO"); 
  else printf("\nCOCOA"); 
-}
