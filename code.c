@@ -1,4 +1,4 @@
-void main() { 
+int main() { 
 printf("Hello World!\n");
  
  int i = 0;
@@ -9,4 +9,6 @@ printf("Hello World!\n");
  int y = 1;
  if (x==y) printf("\nCOCO"); 
  else printf("\nCOCOA"); 
+ 
+ return 0;
 }
