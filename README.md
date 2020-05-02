@@ -12,5 +12,9 @@ During the whole process, we need to keep checking our tasks and pull requests.
 Finally, we will promote our repo.
     
 # Code    
-  
+
+```c
+{% include_relative code.c %}
+```
+
 # Contributors  
