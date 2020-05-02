@@ -20,3 +20,13 @@ Finally, we will promote our repo.
 ![](https://github.com/csci3251-2020/project-team-l/workflows/C%2FC++%20CI/badge.svg)
 
 # Contributors  
+
+{% for stu in site.stu %}
+  <h2>
+    <a href="{{ stu.image }}">
+      @{{ stu.user }}({{ stu.name }})
+    </a>
+  </h2>
+  <p>{{ stu.content | markdownify }}</p>
+{% endfor %}
+
