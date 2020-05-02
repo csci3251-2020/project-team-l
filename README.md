@@ -23,9 +23,8 @@ Finally, we will promote our repo.
 
 {% for stu in site.stu %}
   <h2>
-    <a href="{{ stu.image }}">
-      @{{ stu.user }}({{ stu.name }})
-    </a>
+    !({{stu.image}})
+    @{{ stu.user }}({{ stu.name }})
   </h2>
   <p>{{ stu.content | markdownify }}</p>
 {% endfor %}
