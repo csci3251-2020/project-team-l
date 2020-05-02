@@ -23,8 +23,8 @@ Finally, we will promote our repo.
 
 {% for stu in site.stu %}
     <p>
-    \>>!({{stu.image}})
+    > \>>!({{stu.image}})
         @{{ stu.user }}({{ stu.name }})<br />
-    > \>>{{ stu.content | markdownify }}</p>
+    > > \>>{{ stu.content | markdownify }}</p>
     
 {% endfor %} 
