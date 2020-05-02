@@ -18,3 +18,14 @@ Finally, we will promote our repo.
 ```
 
 # Contributors  
+
+```c
+{% for stu in site.stu %}
+  <h2>
+    <a href="{{ stu.image }}">
+      @{{ stu.user }}({{ stu.name }})
+    </a>
+  </h2>
+  <p>{{ stu.content | markdownify }}</p>
+{% endfor %}
+```
