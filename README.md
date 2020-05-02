@@ -17,4 +17,6 @@ Finally, we will promote our repo.
 {% include_relative code.c %}
 ```
 
+![](https://github.com/csci3251-2020/project-team-l/workflows/C%2FC++%20CI/badge.svg)
+
 # Contributors  
