@@ -22,9 +22,9 @@ Finally, we will promote our repo.
 # Contributors  
 
 {% for stu in site.stu %}
-    <p>
-    > \>>!({{stu.image}})
+    <blockquote> 
+    <p>&gt;&gt;!({{stu.image}})
         @{{ stu.user }}({{ stu.name }})<br />
-    > > \>>{{ stu.content | markdownify }}</p>
-    
+        <blockquote>
+            &gt;&gt;{{ stu.content | markdownify }}</p>
 {% endfor %} 
