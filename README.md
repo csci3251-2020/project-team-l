@@ -21,11 +21,11 @@ Finally, we will promote our repo.
 
 # Contributors  
 {% for stu in site.stu %}
-    <blockquote> 
-    <p>>>![]({{stu.image}})
-        @{{ stu.user }}({{ stu.name }})<br />
-        <blockquote>
-            >>{{ stu.content | markdownify }}
-        </blockquote></p>
-    </blockquote>
+ <blockquote> 
+ <p>>>![]({{stu.image}})
+  @{{ stu.user }}({{ stu.name }})<br />
+  <blockquote>
+   >>{{ stu.content | markdownify }}
+  </blockquote></p>
+ </blockquote>
 {% endfor %} 
