@@ -22,9 +22,17 @@ Finally, we will promote our repo.
 # Contributors
 
 {% for stu in site.stu %}
- <p>&nbsp;&nbsp;&nbsp;&nbsp;>><img src="{{stu.image}}" width="50" height="50" alt>
-  @{{ stu.user }}({{ stu.name }})<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```>>```&nbsp;{{ stu.content | markdownify}}
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;```>>```&nbsp;&nbsp;<img src="{{stu.image}}" width="50" height="50" alt>
+  @{{ stu.user }}({{ stu.name }})<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```>>```&nbsp;&nbsp;{{ stu.content | markdownify}}
   </p>
+{% endfor %}
+
+---
+
+{% for stu in site.stu %}
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;```>>```&nbsp;&nbsp;<img src="{{stu.image}}" width="50" height="50" alt>
+  @{{ stu.user }}({{ stu.name }})</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```>>```&nbsp;&nbsp;{{ stu.content | markdownify}}</p>
 {% endfor %}
 
 ---
